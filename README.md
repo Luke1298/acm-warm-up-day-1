@@ -1,7 +1,7 @@
 # ACM Warm Up Day One
 ## What is a Warm up?
 We will use warm ups in this class to review algorithm(s) that should already be familiar to us. Depending on the day Warm ups can take anywhere from 5 to 30 minutes and may include one to many different algorithms to implement.
-Each day if anything important needs to be conveyed about the warm up that information can be found in this file (README.md) and will likely be discussed in class as well.
+Each day if anything important needs to be conveyed (specifically about the warm up) that information can be found in this file (README.md) and will likely be discussed in class as well.
 
 ## Rule's of the Warm up
 **Warm up's are closed notes, closed friend, and closed internet (unless a link is provided for you)**
@@ -10,14 +10,14 @@ Each day if anything important needs to be conveyed about the warm up that infor
 
 
 #Newton's Method
-If you aren't already familar with newtons method you can find an overview of the algorithm here: https://en.wikipedia.org/wiki/Newton's\_method
-In the file: "solution.py" You will find the following fucntion:
+If you aren't already familiar with newtons method you can find an overview of the algorithm here: https://en.wikipedia.org/wiki/Newton's\_method
+In the file: "solution.py" You will find the following function:
 ```python
 def Newtons_Method(func, func_prime, x_0, iters=100):
   """A direct implementation of Newton's Method
      (For sanity assume that func and func_prime define there own division correctly,
      that is, don't cast anything to a float)
-     params: a function, its direvative and an itial guess (required)
+     params: a function, its derivative and an initial guess (required)
              number of iterations to cap too (optional, default 100)
      returns: a root(int) if found
               None(none-type) else
