@@ -13,7 +13,8 @@ Each day if anything important needs to be conveyed (specifically about the warm
 
 #Newton's Method
 If you aren't already familiar with newtons method you can find an overview of the algorithm here: https://en.wikipedia.org/wiki/Newton's\_method
-In the file: "solution.py" You will find the following function:
+
+In the file: "sol.py" You will find the following function:
 ```python
 def Newtons_Method(func, func_prime, x_0, iters=100):
   """A direct implementation of Newton's Method
