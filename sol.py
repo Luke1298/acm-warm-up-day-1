@@ -11,7 +11,7 @@ def Newtons_Method(func, func_prime, x_0, iters=100, tol=1e-5):
               None(none-type) else
   """
   pass
-
+ 
 
 
 
